@@ -5,6 +5,8 @@
   --light-pink:  #EDEDF6;
   --dark-gray:  #31343D;
   --aqua-light:  #92CCCD;
+  --white:    #ffffff;
+
 }
 
 /* Universal Selectors */
@@ -47,8 +49,8 @@ li a {
 }
 header {
   padding: 3px;
-  background-color: #31343D;
-  color: #ffffff;
+  background-color:  var(--dark-gray);
+  color: var(--white);
 }
 
 footer{
@@ -60,7 +62,7 @@ footer{
 h1{
   display: inline-block;
   font-size: 48px;
-  background-color: #92CCCD;
+  background-color:  var(--aqua-light); 
 }
 
 h2{
@@ -68,7 +70,7 @@ h2{
     display: block;
     text-align: right;
     font-size: 48px;
-    background-color: #92CCCD;
+    background-color:  var(--aqua-light); 
     margin-right: 50px;
     margin-bottom: 100px;
     margin-right: 2px;
@@ -81,10 +83,9 @@ h3{
 }
 
 h4{
-
-  color:#34353E;
+  color:var(--dark-gray);
   width: 200px;;
-  background-color: #57B0CD;;
+  background-color: var(--aqua-light); 
 }
 nav
 {
@@ -97,7 +98,7 @@ nav
 
 .nameh
 {
-  color: #31353E;
+  color: var(--dark-gray);
 }
 
 .hero {
@@ -116,7 +117,7 @@ nav
   background-image:  url("../images/surfreport.jpg");
   background-size: cover;
   background-position: center;
-  border-color: lightblue;
+  border-color: var(--aqua-light); 
   border-style: solid;
   border-width: 5px;
   
@@ -129,7 +130,7 @@ nav
   background-image:  url("../images/ledwall.jpg");
   background-size: cover;
   background-position: center;
-  border-color: lightblue;
+  border-color:var(--aqua-light); 
   border-style: solid;
   border-width: 12px;
 }
@@ -141,7 +142,7 @@ nav
   background-image:  url("../images/calculator.jpg");
   background-size: cover;
   background-position: center;
-  border-color: lightblue;
+  border-color: var(--aqua-light); 
   border-style: solid;
   border-width: 5px;
 }
@@ -152,7 +153,7 @@ nav
   background-image:  url("../images/puzzles.jpg");
   background-size: cover;
   background-position: center;
-  border-color: lightblue;
+  border-color: var(--aqua-light); 
   border-style: solid;
   border-width: 5px;
 }
@@ -164,10 +165,10 @@ nav
   background-image:  url("../images/runbuddy.jpg");
   background-size: cover;
   background-position: center;
-  border-color: lightblue;
+  border-color:var(--aqua-light); 
   border-style: solid;
   border-width: 5px;
-  border-right:10px solid #34353E;
+  border-right:10px solid  var(--dark-gray);
 
 }
 
@@ -176,7 +177,7 @@ nav
   background-image:  url("../images/Myimg.jpg");
   background-size: cover;
   background-position: center;
-  border-color: lightblue;
+  border-color: var(--aqua-light); 
   border-style: solid;
   border-width: 5px;
   border-radius: 20px;
@@ -198,8 +199,8 @@ nav
   font-size: 40px;
   text-align: right;
   padding-right: 50px;
-  border-right:10px solid #34353E;
-  color: #34353E;
+  border-right:10px solid var(--dark-gray);
+  color: var(--dark-gray);
   width: 200px;
   height: 300px;
   padding-left: 40px;
@@ -219,8 +220,7 @@ nav
     display: block;
     padding: 100px;
     background-color: #EDEDF6;
-    color: #31353E;
-  
+    color: var(--dark-gray);
 }
 
 .contactme li 
@@ -232,7 +232,7 @@ nav
 .featured-image{
   flex: 1 1 350px;
   background-color: DodgerBlue;
-  color: white;
+  color:  var(--aqua-light); 
   margin: 10px;
   text-align: center;
   line-height: 75px;
@@ -242,8 +242,7 @@ nav
 #content1 
 {
   display: flex;
-  border-bottom: 1px solid #F2F2F2;
-  padding: 2.3em 0;
+  border-bottom: 1px solid var(--aqua-light);  
   width: 100%;
   flex-wrap: wrap;
 }
