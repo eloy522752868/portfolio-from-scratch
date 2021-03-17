@@ -1,4 +1,10 @@
 
+/* Variable Functions */
+:root {
+  --blue: #1e90ff;
+  --light-pink:  #EDEDF6;
+}
+
 /* Universal Selectors */
 * {
   box-sizing: border-box;
@@ -10,7 +16,7 @@
   /* Note:Added header,nav to use these elements instead of classes */
 
 body {
-  background-color: #EDEDF6;
+  background-color:  var(light-pink);
 }
 
 p {
@@ -64,6 +70,7 @@ h2{
     margin-right: 50px;
     margin-bottom: 100px;
     margin-right: 2px;
+    color :#34353E;
 }
 
 h3{
@@ -177,7 +184,6 @@ nav
 }
 .content
 {
-  border: 1px solid #c3c3c3;
   display: flex;
   justify-content: flex-start; 
   padding-left: 30px;
@@ -191,10 +197,10 @@ nav
   text-align: right;
   padding-right: 50px;
   border-right:10px solid #34353E;
-    color: #34353E;
-    width: 200px;
-    height: 300px;
-    padding-left: 40px;
+  color: #34353E;
+  width: 200px;
+  height: 300px;
+  padding-left: 40px;
 
 }
 
