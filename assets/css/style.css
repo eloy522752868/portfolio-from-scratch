@@ -3,6 +3,8 @@
 :root {
   --blue: #1e90ff;
   --light-pink:  #EDEDF6;
+  --dark-gray:  #31343D;
+  --aqua-light:  #92CCCD;
 }
 
 /* Universal Selectors */
@@ -16,7 +18,7 @@
   /* Note:Added header,nav to use these elements instead of classes */
 
 body {
-  background-color:  var(light-pink);
+  background-color: var(--light-pink);
 }
 
 p {
@@ -40,8 +42,8 @@ li {
 li a {
   display: block;
   padding: 20px;
-  background-color: #31343D;
-  color: #92CCCD;
+  background-color: var(--dark-gray);
+  color: var(--aqua-light); 
 }
 header {
   padding: 3px;
