@@ -4,6 +4,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* Elements Selectors */
   /* Note:Added header,nav to use these elements instead of classes */
@@ -15,6 +16,7 @@ body {
 p {
   margin-top: 10px ;
   margin-bottom: 10px ;
+  font-size: 20px;
 }
 
 ul {
@@ -37,7 +39,6 @@ li a {
 }
 header {
   padding: 3px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #31343D;
   color: #ffffff;
 }
@@ -45,7 +46,6 @@ header {
 footer{
   padding: 30px;
   clear: both;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
 }
 
@@ -56,24 +56,33 @@ h1{
 }
 
 h2{
-    display: inline-block;
+    float: none;
+    display: block;
+    text-align: right;
     font-size: 48px;
     background-color: #92CCCD;
     margin-right: 50px;
-    margin-top: 130px;
     margin-bottom: 100px;
     margin-right: 2px;
-    margin-left: 1500px;
-    
 }
 
+h3{
+
+  color:#57B0CD;
+}
+
+h4{
+
+  color:#34353E;
+  width: 200px;;
+  background-color: #57B0CD;;
+}
 nav
 {
   
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
 }
 
@@ -89,13 +98,118 @@ nav
   background-image:  url("../images/bgpor.jpg");
   background-size: cover;
   background-position: center;
+  position: ab;
 }
+
+.SurfReport {
+
+  margin-bottom: 25px;
+  background-image:  url("../images/surfreport.jpg");
+  background-size: cover;
+  background-position: center;
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 5px;
+  
+}
+
+.ledwall {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image:  url("../images/ledwall.jpg");
+  background-size: cover;
+  background-position: center;
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 12px;
+}
+
+.calculator{
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image:  url("../images/calculator.jpg");
+  background-size: cover;
+  background-position: center;
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 5px;
+}
+.puzzles {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image:  url("../images/puzzles.jpg");
+  background-size: cover;
+  background-position: center;
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.runbuddy{
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image:  url("../images/runbuddy.jpg");
+  background-size: cover;
+  background-position: center;
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 5px;
+  border-right:10px solid #34353E;
+
+}
+
+.myimg{
+
+  background-image:  url("../images/Myimg.jpg");
+  background-size: cover;
+  background-position: center;
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.content
+{
+  border: 1px solid #c3c3c3;
+  display: flex;
+  justify-content: flex-start; 
+  padding-left: 30px;
+}
+
+.card-title
+{
+  margin-bottom: 32px;
+  font-family: sans-serif;
+  font-size: 40px;
+  text-align: right;
+  padding-right: 50px;
+  border-right:10px solid #34353E;
+    color: #34353E;
+    width: 200px;
+    height: 300px;
+    padding-left: 40px;
+
+}
+
+.card-content 
+{
+  flex-basis: 1500px;
+  padding-left: 30px
+}
+
 
 .contactme li a
 {
 
     display: block;
-    padding: 20px;
+    padding: 100px;
     background-color: #EDEDF6;
     color: #31353E;
   
@@ -104,8 +218,42 @@ nav
 .contactme li 
 {
   float: left;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
+  font-size: 20px; 
+}
+
+.featured-image{
+  flex: 1 1 350px;
+  background-color: DodgerBlue;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+#content1 
+{
+  display: flex;
+  border-bottom: 1px solid #F2F2F2;
+  padding: 2.3em 0;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+#surf-report {
+  flex: 10 10 100%;
+  margin-bottom: 25px;
+  background-image:  url("../images/surfreport.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
   
 }
 
+
+
+@media screen and (min-width : 2000px) {
+  #content1  {
+
+ }

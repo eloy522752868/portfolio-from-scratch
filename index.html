@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Document</title>
-</head>
-<body>
-   <!--Changed div class to  header and add nav. Thinking of changing  the header to not have a class header should work without it-->
+  </head>
+  <body>
+    <!--Changed div class to  header and add nav. Thinking of changing  the header to not have a class header should work without it-->
     <header>
       <!-- Headers -->
       <!--Did not need the class do ref on css to header directly-->
@@ -17,97 +17,83 @@
       <!--Change div to nav for better semantics-->
       <nav>
         <ul>
-            <li>
-                <a href="#Resume">Resume</a>
-            </li>
-            <li>
-                <a href="#ContactMe">Contact Me</a>
-            </li>
-            <li>
-                <a href="#Work">Work</a>
-            </li>
-            <li>
-                <a href="#AboutMe">About Me</a>
-            </li>
- 
+          <li>
+            <a href="#Resume">Resume</a>
+          </li>
+          <li>
+            <a href="#ContactMe">Contact Me</a>
+          </li>
+          <li>
+            <a href="#Work">Work</a>
+          </li>
+          <li>
+            <a href="#AboutMe">About Me</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <section class="hero"> 
-
-        <h2>
-            Cool subtitle here!
-        </h2>
-
-    
-        
+    <section class="hero">
+      <h2>Cool subtitle here!</h2>
     </section>
 
-      <main>
-        <section class="content">
-            <div class="box">
-                <h3 class="card-title">
-                    About Me
-                </h3>
+    <main>
+      <section class="content">
+          <h3 class="card-title" id="about-me">About Me</h3>
+          <div class="featured-image myimg"></div>
+          <p class="card-content">
+            I’m a multi-faceted professional offering 17 years of progressive
+            leadership expertise in enterprise software development and systems
+            programming in supporting a diverse client base. I have in-depth
+            experience in user interface (UI) design, information architecture,
+            and user personalization. I consider myself to have exceptional
+            relationship-building skills and well-versed in all phases of the
+            software development life cycle, including requirements gathering,
+            design, data flows, prototyping, usability testing, development, and
+            code testing. I’m also bilingual, fluent in English and Spanish..
+          </p>
+      </section>
+      <section class="content">
+        <h3 class="card-title" id="about-work">Work</h3>
+        <div id="content1">
+          <div class="featured-image" id="surf-report"><h4>Surf Report</h4></div>
+          <div class="featured-image ledwall">
+             <h4>Led Wall</h4> 
+          </div>
+          <div class="featured-image calculator" >
+              <h4>Calculator</h4> 
             </div>
-            <div class="box">
-                <p>I’m a multi-faceted professional offering 17 years of progressive leadership expertise in enterprise software 
-                    development and systems programming in supporting a diverse client base. I have in-depth experience in user interface (UI) design,
-                     information architecture, and user personalization. I consider myself to have exceptional relationship-building skills and well-versed 
-                     in all phases of the software development life cycle, including requirements gathering, design, data flows, 
-                    prototyping, usability testing, development, and code testing. I’m also bilingual, fluent in English and Spanish..</p>
-                <p>I welcome all invitations to connect and I can be reached at eloy522752@gmail.com, please let me know if I can do anything for you.</p>
-     
-                </div>
-        </section>
+          <div class="featured-image puzzles"><h4>Puzzles</h4></div>
+          <div class="featured-image runbuddy"><h4>runbuddy</h4></div>
+        </div>
+      </section>
 
-        <section class="content">
-            <div class="box">
-                <h3 class="card-title">
-                    Work
-                </h3>
-            </div>
-            <div class="box">
-                <div id="content1">
-                    <div class="box1" style="background-color:red;">Surf Report</div>
-                    <div class="box1" style="background-color:lightblue;">Led</div>
-                    <div class="box1" style="background-color:yellow;">C</div>
-                  </div>
-            </div>
-        </section>
-
-        <section class="content">
-            <div class="box">
-                <h3 class="card-title">
-                    Contact Me
-                </h3>
-            </div>
-            <div class="box">
-                <ul class="contactme">
-                    <li>
-                        <a href="#Spotify">Spotify</a>
-                    </li>
-                    <li>
-                        <a href="#Twitter">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="#GitHube">GitHub</a>
-                    </li>
-                    <li>
-                        <a href="#email">eloy522752@gmail.com</a>
-                    </li>
-                    <li>
-                        <a href="#phone">404-993-66-98</a>
-                    </li>
-         
-                </ul>
-            </div>
-        </section>
-        
+      <section class="content">
+        <div>
+          <h3 class="card-title">Contact Me</h3>
+        </div>
+        <div>
+          <ul class="contactme">
+            <li>
+              <a href="#Spotify">Spotify</a>
+            </li>
+            <li>
+              <a href="#Twitter">Twitter</a>
+            </li>
+            <li>
+              <a href="#GitHube">GitHub</a>
+            </li>
+            <li>
+              <a href="#email">eloy522752@gmail.com</a>
+            </li>
+            <li>
+              <a href="#phone">404-993-66-98</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-    
-</body>
-<footer>
-   <h3>Copyright</h3> 
-</footer>
+  </body>
+  <footer>
+    <h3>Copyright</h3>
+  </footer>
 </html>
