@@ -76,6 +76,7 @@ h1{
   font-size: 48px;
   background-color:  var(--aqua-light); 
   color:var(--dark-gray);
+  cursor: pointer;
 }
 
 h2{
@@ -121,6 +122,7 @@ h4{
   border-color: var(--aqua-light); 
   border-style: solid;
   border-width: 5px;
+  cursor: pointer;
 }
 
 .ledwall {
@@ -133,6 +135,7 @@ h4{
   border-color:var(--aqua-light); 
   border-style: solid;
   border-width: 12px;
+  cursor: pointer;
 }
 
 .calculator{
@@ -145,6 +148,7 @@ h4{
   border-color: var(--aqua-light); 
   border-style: solid;
   border-width: 5px;
+  cursor: pointer;
 }
 .puzzles {
   height: 200px;
@@ -156,6 +160,7 @@ h4{
   border-color: var(--aqua-light); 
   border-style: solid;
   border-width: 5px;
+  cursor: pointer;
 }
 
 .runbuddy{
@@ -169,7 +174,7 @@ h4{
   border-style: solid;
   border-width: 5px;
   border-right:10px solid  var(--dark-gray);
-
+  cursor: pointer;
 }
 
 .myimg{
@@ -184,6 +189,7 @@ h4{
   max-width: 100%;
   height: auto;
   width: auto;
+  cursor: pointer;
 }
 
   /* Below grouped together are the section  03/17/21 egon*/
@@ -257,7 +263,7 @@ h4{
   background-size: cover;
   background-position: center;
   min-height: 50vh;
-  
+  cursor: pointer;
 }
 
   /* I added based one requirments. 03/17/21 egon*/
