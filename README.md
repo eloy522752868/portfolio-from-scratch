@@ -1,9 +1,8 @@
 # portfolio-from-scratch
 ## Description
-This is my my portafolio project. 
+Thank you for visiting my portfolio project. Hope with this project I was able demonstrate a little bit about me and improve my skills on creating a responsive website.
 
-
-![Portfolio Site](./assets/images/HorieonSite.jpg)
+![Portfolio Site](./assets/images/MyProfileGithub.jpg.png)
 
 ## Deployed Site
 deployed site below:

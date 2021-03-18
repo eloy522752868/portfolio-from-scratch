@@ -227,7 +227,7 @@ h4{
 
     display: block;
     padding: 100px;
-    background-color: #EDEDF6;
+    background-color: var(--light-pink);
     color: var(--dark-gray);
 }
 
@@ -250,7 +250,7 @@ h4{
 #content1 
 {
   display: flex;
-  border-bottom: 1px solid var(--aqua-light);  
+  
   width: 100%;
   flex-wrap: wrap;
 }
