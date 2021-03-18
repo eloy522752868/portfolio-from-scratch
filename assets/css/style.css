@@ -1,5 +1,6 @@
 
 /* Variable Functions */
+  /* Declared all the colors need on the CSS */
 :root {
   --blue: #1e90ff;
   --light-pink:  #EDEDF6;
@@ -17,36 +18,13 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* Elements Selectors */
-  /* Note:Added header,nav to use these elements instead of classes */
+  /* Note:Added header,nav to use these elements instead of classes as much as possible.
+  I used variable for colors. 03/17/21 egon*/
 
 body {
   background-color: var(--light-pink);
 }
 
-p {
-  margin-top: 10px ;
-  margin-bottom: 10px ;
-  font-size: 20px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: right;
-  
-}
-
-li a {
-  display: block;
-  padding: 20px;
-  background-color: var(--dark-gray);
-  color: var(--aqua-light); 
-}
 header {
   padding: 3px;
   background-color:  var(--dark-gray);
@@ -59,10 +37,45 @@ footer{
   text-align: center;
 }
 
+p {
+  margin-top: 10px ;
+  margin-bottom: 10px ;
+  font-size: 20px;
+}
+
+/* Note grouped  next to each other ul, li, li abd nav do to they all work in together 03/17/21 egon*/
+
+nav
+{ 
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 20px;
+  background-color: var(--dark-gray);
+  color: var(--aqua-light); 
+}
+
 h1{
   display: inline-block;
   font-size: 48px;
   background-color:  var(--aqua-light); 
+  color:var(--dark-gray);
 }
 
 h2{
@@ -74,12 +87,11 @@ h2{
     margin-right: 50px;
     margin-bottom: 100px;
     margin-right: 2px;
-    color :#34353E;
+    color : var(--dark-gray);
 }
 
 h3{
-
-  color:#57B0CD;
+  color:var(--aqua-light); 
 }
 
 h4{
@@ -87,32 +99,21 @@ h4{
   width: 200px;;
   background-color: var(--aqua-light); 
 }
-nav
-{
-  
-  padding-top: 15px;
-  margin-right: 20px;
-  float: right;
-  font-size: 20px;
-}
 
-.nameh
-{
-  color: var(--dark-gray);
-}
+/* class Selectors */
+  /* declared all images on css and it Properties on below classes 03/17/21 egon*/
 
-.hero {
+.background-img {
   height: 200px;
   width: 100%;
   margin-bottom: 25px;
   background-image:  url("../images/bgpor.jpg");
   background-size: cover;
   background-position: center;
-  position: ab;
+
 }
 
 .SurfReport {
-
   margin-bottom: 25px;
   background-image:  url("../images/surfreport.jpg");
   background-size: cover;
@@ -120,7 +121,6 @@ nav
   border-color: var(--aqua-light); 
   border-style: solid;
   border-width: 5px;
-  
 }
 
 .ledwall {
@@ -185,6 +185,8 @@ nav
   height: auto;
   width: auto;
 }
+
+  /* Below grouped together are the section  03/17/21 egon*/
 .content
 {
   display: flex;
@@ -258,9 +260,10 @@ nav
   
 }
 
-
-
-@media screen and (min-width : 2000px) {
-  #content1  {
-
- }
+  /* I added based one requirments. 03/17/21 egon*/
+@media screen and (max-width: 768px) {
+  main,
+  nav,
+  .content {
+    flex-direction: column;
+  }
