@@ -231,6 +231,11 @@ h4{
     color: var(--dark-gray);
 }
 
+.textCenter {
+  text-align: center;
+  color: #1e90ff;
+}
+
 .contactme li 
 {
   float: left;
@@ -267,9 +272,19 @@ h4{
 }
 
   /* I added based one requirments. 03/17/21 egon*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) 
+{
   main,
   nav,
-  .content {
+  .content 
+  {
     flex-direction: column;
   }
+  .card-title
+  {
+    border-right:none;
+    height: 100px;
+    border-bottom: 10px solid;
+  }
+
+}
