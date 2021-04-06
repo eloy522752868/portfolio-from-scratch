@@ -2,7 +2,7 @@
 ## Description
 Thank you for visiting my portfolio project. Hope with this project I was able demonstrate a little bit about me and improve my skills on creating a responsive website.
 
-![Portfolio Site](./assets/images/MyProfileGithub.jpg.png)
+![Portfolio Site](./assets/images/MyProfileGithub.png)
 
 ## Deployed Site
 deployed site below:
