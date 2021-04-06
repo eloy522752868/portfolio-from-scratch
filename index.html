@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Eloy Gonzalez Profile</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100&family=New+Tegomin&family=Raleway:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./assets/css/reset.css" />
@@ -15,8 +16,8 @@
 
 <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
     <a class="navbar-brand" href="#">
-        <img src="./assets/images/Myimg.jpg" width="100" height="100" class="img-thumbnail shadow-lg" alt="Eloy Gonzalez Image">
-        Eloy Gonzalez
+        <img src="./assets/images/Myimg.jpg"  class="img-thumbnail shadow-lg" alt="Eloy Gonzalez Image">
+        <h1>Eloy Gonzalez</h1>
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -39,10 +40,7 @@
   </ul>
 </nav>
 
-<div class="d-flex flex-row-reverse">
-    <h3>My Amazing Portafolio</h3>
-  </div>
-<div class="container-fluid">
+<div class="jumbotron">
     <h3 class="card-title" id="about-me">About Me</h3>
     <div onclick="window.location='https://www.linkedin.com/in/egonzalez1/';"  class="featured-image myimg"></div>
     <p class="card-content">
@@ -57,7 +55,7 @@
       code testing. I’m also bilingual, fluent in English and Spanish..
     </p>
 </div>
-<div class="container-fluid">
+<div class="jumbotron">
     <h3 class="card-title" id="about-me">Work</h3>
     <div onclick="window.location='https://www.linkedin.com/in/egonzalez1/';"  class="featured-image myimg"></div>
     <div class="container">
@@ -72,7 +70,7 @@
       </div>
 </div>
 
-<div class="container-fluid">
+<div class="jumbotron">
     <h3 class="card-title" id="about-me">Contact Me</h3>
     <div onclick="window.location='https://www.linkedin.com/in/egonzalez1/';"  class="featured-image myimg"></div>
     <ul class="nav justify-content-center">
@@ -90,6 +88,6 @@
         </li>
       </ul>
 </div>
-
+<script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
 </html>
