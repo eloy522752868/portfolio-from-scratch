@@ -16,13 +16,14 @@
   padding: 0;
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:#E9ECEF
 }
 /* Elements Selectors */
   /* Note:Added header,nav to use these elements instead of classes as much as possible.
   I used variable for colors. 03/17/21 egon*/
 
 body {
-  background-color: var(--light-pink);
+  background-color:red
 }
 
 header {

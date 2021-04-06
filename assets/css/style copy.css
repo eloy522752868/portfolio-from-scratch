@@ -10,6 +10,28 @@
 
 }
 
+/* Universal Selectors */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Londrina Solid', cursive;
+  font-family: 'New Tegomin', serif;
+  
+}
+
+/* Elements Selectors */
+  /* Note:Added header,nav to use these elements instead of classes as much as possible.
+  I used variable for colors. 03/17/21 egon*/
+  
+nav{
+
+  font-size: 25px;
+  border-color: var(--dark-gray); 
+  border-style: solid;
+  border-width: 5px;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -21,35 +43,16 @@ p {
   font-family: 'New Tegomin', serif;
   font-size: 20px;
 }
-.card-title
+
+body
 {
-
-  border-right:none;
-  height: 50px;
-  border-bottom: 10px solid;
+  background-color:#E9ECEF
 }
 
-/* Universal Selectors */
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: 'Londrina Solid', cursive;
-  font-family: 'New Tegomin', serif;
-}
-/* Elements Selectors */
+/* Class Selectors */
   /* Note:Added header,nav to use these elements instead of classes as much as possible.
   I used variable for colors. 03/17/21 egon*/
 
-  .featured-image{
-    flex: 1 1 350px;
-    background-color: DodgerBlue;
-    color:  var(--aqua-light); 
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-  }
   .employees-passwords-generator {
     height: 200px;
     width: 100%;
@@ -57,7 +60,7 @@ p {
     background-image:  url("../images/employees-passwords-generator.png");
     background-size: cover;
     background-position: center;
-    border-color: var(--aqua-light); 
+    border-color: var(--dark-gray); 
     border-style: solid;
     border-width: 5px;
     cursor: pointer;
@@ -70,11 +73,12 @@ p {
     background-image:  url("../images/WorkDayScheduler.png");
     background-size: cover;
     background-position: center;
-    border-color: var(--aqua-light); 
+    border-color: var(--dark-gray); 
     border-style: solid;
     border-width: 5px;
     cursor: pointer;
   }
+
 .coding-quiz-challenge{
   height: 200px;
   width: 100%;
@@ -82,22 +86,37 @@ p {
   background-image:  url("../images/CodingQuizChallenge.png");
   background-size: cover;
   background-position: center;
-  border-color:var(--aqua-light); 
+  border-color:var(--dark-gray); 
   border-style: solid;
   border-width: 5px;
-  border-right:10px solid  var(--dark-gray);
   cursor: pointer;
 }
 
-#trademark-project {
+.card-title
+{
+  border-right:none;
+  height: 60px;
+  border-bottom: 10px solid;
+}
 
+#trademark-project {
   margin-bottom: 25px;
   background-image:  url("../images/TrademarkProject.png");
   background-size: cover;
   background-position: center;
+  border-color: var(--dark-gray); 
+  border-style: solid;
+  border-width: 5px;
   min-height: 50vh;
   cursor: pointer;
 }
+
+#contactme
+{
+  font-size: 25px;
+}
+
+
 
   /* I added based one requirments. 03/17/21 egon*/
 @media screen and (max-width: 768px) 
