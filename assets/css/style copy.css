@@ -1,4 +1,5 @@
-
+/* Update CSS with less CSS do I used more bootstrap still used couple of changes to elements, classes and id's*/
+  /* Declared all the colors need on the CSS */
 /* Variable Functions */
   /* Declared all the colors need on the CSS */
 :root {
@@ -49,8 +50,6 @@ body
 }
 
 /* Class Selectors */
-  /* Note:Added header,nav to use these elements instead of classes as much as possible.
-  I used variable for colors. 03/17/21 egon*/
 
   .employees-passwords-generator {
     height: 200px;
@@ -94,15 +93,12 @@ body
   cursor: pointer;
 }
 
-
 .card-title
 {
   border-right:none;
   height: 60px;
   border-bottom: 10px solid;
 }
-
-
 
 #trademark-project {
   margin-bottom: 25px;
@@ -127,9 +123,7 @@ body
   font-size: 25px;
 }
 
-
-
-  /* I added based one requirments. 03/17/21 egon*/
+  /* Not using media do to I made the site responsive with css 03/17/21 egon*/
 @media screen and (max-width: 768px) 
 {
 
