@@ -25,7 +25,6 @@
   I used variable for colors. 03/17/21 egon*/
   
 nav{
-
   font-size: 25px;
   border-color: var(--dark-gray); 
   border-style: solid;
@@ -56,6 +55,7 @@ body
   .employees-passwords-generator {
     height: 200px;
     width: 100%;
+    text-align: center;
     margin-bottom: 25px;
     background-image:  url("../images/employees-passwords-generator.png");
     background-size: cover;
@@ -69,6 +69,7 @@ body
   .WorkdayScheduler{
     height: 200px;
     width: 100%;
+    text-align: center;
     margin-bottom: 25px;
     background-image:  url("../images/WorkDayScheduler.png");
     background-size: cover;
@@ -82,6 +83,7 @@ body
 .coding-quiz-challenge{
   height: 200px;
   width: 100%;
+  text-align: center;
   margin-bottom: 25px;
   background-image:  url("../images/CodingQuizChallenge.png");
   background-size: cover;
@@ -92,6 +94,7 @@ body
   cursor: pointer;
 }
 
+
 .card-title
 {
   border-right:none;
@@ -99,8 +102,11 @@ body
   border-bottom: 10px solid;
 }
 
+
+
 #trademark-project {
   margin-bottom: 25px;
+  text-align: center;
   background-image:  url("../images/TrademarkProject.png");
   background-size: cover;
   background-position: center;
@@ -111,7 +117,12 @@ body
   cursor: pointer;
 }
 
-#contactme
+#work-titles
+{
+
+  text-align: center;
+}
+#contact-me
 {
   font-size: 25px;
 }

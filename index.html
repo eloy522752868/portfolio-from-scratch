@@ -13,7 +13,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">
+    <a id = "img-profile" class="navbar-brand" href="#">
         <img src="./assets/images/Myimg.jpg"  class="img-thumbnail shadow-lg img-fluid rounded" alt="Eloy Gonzalez Image">
         <h1>Eloy Gonzalez</h1>
       </a>
@@ -24,23 +24,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
     <li class="nav-item">
-      <a class="nav-link" id = "resume-detail" href="#">Resume</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#contact-me">Contact Me</a>
+      <a class="nav-link" href="#about-me">About Me</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#about-work">Work</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#about-me">About Me</a>
-      </li>
+      <a class="nav-link" id = "resume-detail" href="#">Resume</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#contact-me">Contact Me</a>
+    </li>
   </ul>
 </nav>
-
 <div class="jumbotron">
     <h3 class="card-title" id="about-me">About Me</h3>
-    <div onclick="window.location='https://www.linkedin.com/in/egonzalez1/';"  class="featured-image myimg"></div>
+    <div class="featured-image myimg"></div>
     <p class="card-content">
       I’m a multi-faceted professional offering 17 years of progressive
       leadership expertise in enterprise software development and systems
@@ -54,22 +53,20 @@
     </p>
 </div>
 <div class="jumbotron">
-    <h3 class="card-title" id="about-me">Work</h3>
+    <h3 class="card-title" id="about-work">Work</h3>
     <div onclick="window.location='https://www.linkedin.com/in/egonzalez1/';"  class="featured-image myimg"></div>
     <div class="container">
         <div class="row">
           <div class="col 12 col-sm-12" id="trademark-project"><h3 class = "p-2 bg-dark text-white">Trademark Search</h3></div>
           <div class="w-100 d-none d-md-block"></div>
-          <div class="coding-quiz-challenge col-12 col-sm-4">
-            <h3 class ="p-2 bg-dark text-white">coding-assessment</h3></div>
-          <div class="employees-passwords-generator col-12 col-sm-4"><h3 class ="p-2 bg-dark text-white">passwords-generator</h3></div>
-          <div class="WorkdayScheduler col-12 col-sm-4"><h3 class ="p-2 bg-dark text-white">work-day-scheduler</h3></div>
+          <div id = "coding-quiz-challengeid" class="coding-quiz-challenge col-12 col-sm-4"><h3 class ="p-2 bg-dark text-white">Coding Assessment</h3></div>
+          <div id = "employees-passwords-generatorid" class="employees-passwords-generator col-12 col-sm-4"><h3 class ="p-2 bg-dark text-white">Passwords Generator</h3></div>
+          <div id = "WorkdaySchedulerid" class="WorkdayScheduler col-12 col-sm-4"><h3 class ="p-2 bg-dark text-white">Work Day Scheduler</h3></div>
         </div>
       </div>
 </div>
-
 <div class="jumbotron">
-    <h3 class="card-title" id="contactmed">Contact Me</h3>
+    <h3 class="card-title" id="contact-me">Contact Me</h3>
     <div onclick="window.location='https://www.linkedin.com/in/egonzalez1/';"  class="featured-image myimg"></div>
     <ul id="contactme" class="nav justify-content-center">
         <li class="nav-item">
@@ -83,8 +80,10 @@
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="mailito:eloy522752@gmail.com?subject=Job Opportunity Eloy Gonzalez">eloy522752@gmail.com</a>
+          
         </li>
       </ul>
+
 </div>
 <script type="text/javascript" 
 src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">  
