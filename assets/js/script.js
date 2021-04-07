@@ -1,6 +1,6 @@
 //Eloy Gonzalez 04/06/2021
 //Declaration of variables/array
-var docLocation = "./assets/images/Eloy Gonzalez 2020 Resume.pdf";
+var docLocation = "./assets/images/Eloy Gonzalez 2021 Resume.pdf";
 var linkIn = "https://www.linkedin.com/in/egonzalez1/";
 var gitHubRepos = ["https://github.com/mknowlton89/trademark_search","https://github.com/eloy522752868/interview-coding-assessment","https://github.com/eloy522752868/employees-passwords-generator","https://github.com/eloy522752868/work-day-scheduler","https://github.com/eloy522752868?tab=repositories"];
 
