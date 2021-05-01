@@ -70,7 +70,7 @@ body
     width: 100%;
     text-align: center;
     margin-bottom: 25px;
-    background-image:  url("../images/canvas.png");
+    background-image:  url("../images/NoteTaker.png");
     background-size: cover;
     background-position: center;
     border-color: var(--dark-gray); 
