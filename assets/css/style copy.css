@@ -51,12 +51,12 @@ body
 
 /* Class Selectors */
 
-  .employees-passwords-generator {
+  .ecommerce {
     height: 200px;
     width: 100%;
     text-align: center;
     margin-bottom: 25px;
-    background-image:  url("../images/employees-passwords-generator.png");
+    background-image:  url("../images/ecommerce.png");
     background-size: cover;
     background-position: center;
     border-color: var(--dark-gray); 
@@ -65,12 +65,12 @@ body
     cursor: pointer;
   }
   
-  .WorkdayScheduler{
+  .canvas{
     height: 200px;
     width: 100%;
     text-align: center;
     margin-bottom: 25px;
-    background-image:  url("../images/WorkDayScheduler.png");
+    background-image:  url("../images/canvas.png");
     background-size: cover;
     background-position: center;
     border-color: var(--dark-gray); 
@@ -79,12 +79,12 @@ body
     cursor: pointer;
   }
 
-.coding-quiz-challenge{
+.techblog{
   height: 200px;
   width: 100%;
   text-align: center;
   margin-bottom: 25px;
-  background-image:  url("../images/CodingQuizChallenge.png");
+  background-image:  url("../images/techblog.png");
   background-size: cover;
   background-position: center;
   border-color:var(--dark-gray); 
@@ -100,10 +100,10 @@ body
   border-bottom: 10px solid;
 }
 
-#trademark-project {
+#exershare{
   margin-bottom: 25px;
   text-align: center;
-  background-image:  url("../images/TrademarkProject.png");
+  background-image:  url("../images/exershare.png");
   background-size: cover;
   background-position: center;
   border-color: var(--dark-gray); 
